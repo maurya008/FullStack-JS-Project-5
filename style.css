@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(assets/bg.png) no-repeat rgb(30, 30, 30) fixed center center;
+    background-size: 100% 100%;
+}
+
+.container {
+    position: relative;
+}
+
+.navbar {
+    background-color: #0D0D0D;
+    height: 10vh;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+
+.button-small {
+    position: absolute;
+    top: 25px;
+    right: 110px;
+    width: 130px;
+    height: 4vh;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    background-color: #d266d9;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.list {
+    position: absolute;
+    top: -3px;
+    left: 300px;
+
+}
+
+.list-item {
+    display: inline;
+    font-size: 1.2em;
+    margin: 10px;
+    /* left: 28%; */
+    top: 15px;
+    color: #ffffff;
+}
+
+li:first-child::before {
+    content: " | \00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+    display: inline;
+    width: 1px;
+    font-size: 2.7em;
+    line-height: 70px;
+}
+
+li:first-child::after {
+    content: " v";
+    display: inline;
+    width: 1px;
+    font-size: 0.7em;
+}
+
+.hero-heading {
+    position: absolute;
+    top: 255px;
+    text-align: center;
+    left: 400px;
+    width: 50%;
+    font-size: 4em;
+    font-weight: bold;
+    line-height: 70px;
+    color: #ffffff;
+}
+
+.hero-description {
+    position: absolute;
+    top: 400px;
+    text-align: center;
+    left: 400px;
+    width: 50%;
+    font-size: 2em;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.button-large {
+    position: absolute;
+    top: 470px;
+    left: 680px;
+    width: 250px;
+    height: 7vh;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #d266d9;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
